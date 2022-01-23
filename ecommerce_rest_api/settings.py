@@ -14,7 +14,7 @@ from email.policy import default
 from pathlib import Path
 from decouple import config
 from django.urls import conf
-from dj_database_url import parse
+from dj_database_url import parse as dburl
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
