@@ -153,5 +153,6 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    '*',
+    'http://localhost:3000',
+    'https://kaski-react-demo.netlify.app/',
 ]
